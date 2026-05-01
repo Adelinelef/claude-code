@@ -1,0 +1,154 @@
+/* =========================================================
+   Jurismart — Colors & Type (trimmed for landing page)
+   ========================================================= */
+
+/* Body — Inter 18pt */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/Inter_18pt-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/Inter_18pt-Italic.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/Inter_18pt-Medium.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/Inter_18pt-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/Inter_18pt-Bold.ttf") format("truetype"); }
+
+/* Display — Inter 28pt */
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/Inter_28pt-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/Inter_28pt-Medium.ttf") format("truetype"); }
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/Inter_28pt-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/Inter_28pt-Bold.ttf") format("truetype"); }
+
+
+:root {
+  /* Brand */
+  --js-terracotta-50:  #fdf3ef;
+  --js-terracotta-100: #fae0d6;
+  --js-terracotta-200: #f3bda9;
+  --js-terracotta-300: #ec9a7d;
+  --js-terracotta-400: #e78269;
+  --js-terracotta-500: #e2725b;
+  --js-terracotta-600: #c65c47;
+  --js-terracotta-700: #a14836;
+  --js-terracotta-800: #7a3428;
+  --js-terracotta-900: #4d1f17;
+
+  --js-blue-50:  #f3f7f9;
+  --js-blue-100: #e6edf1;
+  --js-blue-200: #d9e4e9;
+  --js-blue-300: #b8ccd4;
+  --js-blue-400: #8ba8b4;
+  --js-blue-500: #5f8695;
+  --js-blue-600: #416774;
+  --js-blue-700: #2d4d58;
+  --js-blue-800: #1d343c;
+
+  --js-saffron-100: #fff1c2;
+  --js-saffron-200: #ffe69a;
+  --js-saffron-300: #ffdd7b;
+  --js-saffron-400: #f5c94e;
+  --js-saffron-500: #e0ae2a;
+  --js-saffron-700: #7f5c0d;
+
+  --js-ink-50:  #fafaf8;
+  --js-ink-100: #f3f2ee;
+  --js-ink-200: #e7e5de;
+  --js-ink-300: #cecbc1;
+  --js-ink-400: #a19d91;
+  --js-ink-500: #76716a;
+  --js-ink-600: #55524c;
+  --js-ink-700: #3a3834;
+  --js-ink-800: #26241f;
+  --js-ink-900: #171612;
+
+  --js-success: #3f8a5a;
+  --js-success-bg: #e7f2ec;
+  --js-warning: #b88610;
+  --js-danger:  #b8483d;
+
+  --bg:            #fbf9f4;
+  --bg-elev:       #ffffff;
+  --bg-subtle:     var(--js-ink-100);
+  --bg-accent:     var(--js-blue-200);
+  --bg-highlight:  var(--js-saffron-300);
+
+  --fg1:           var(--js-ink-900);
+  --fg2:           var(--js-ink-700);
+  --fg3:           var(--js-ink-500);
+  --fg4:           var(--js-ink-400);
+
+  --accent:        var(--js-terracotta-500);
+  --accent-hover:  var(--js-terracotta-600);
+  --accent-press:  var(--js-terracotta-700);
+  --accent-soft:   var(--js-terracotta-100);
+
+  --line:          var(--js-ink-200);
+  --line-strong:   var(--js-ink-300);
+  --focus-ring:    color-mix(in oklch, var(--accent) 55%, transparent);
+
+  --shadow-xs:  0 1px 1px rgba(38, 36, 31, 0.04);
+  --shadow-sm:  0 1px 2px rgba(38, 36, 31, 0.06), 0 1px 1px rgba(38, 36, 31, 0.04);
+  --shadow-md:  0 4px 10px -2px rgba(38, 36, 31, 0.08), 0 2px 4px -1px rgba(38, 36, 31, 0.05);
+  --shadow-lg:  0 18px 32px -12px rgba(38, 36, 31, 0.14), 0 4px 10px -2px rgba(38, 36, 31, 0.06);
+  --shadow-xl:  0 28px 60px -20px rgba(38, 36, 31, 0.22);
+
+  --r-xs: 4px;  --r-sm: 6px;  --r-md: 10px;  --r-lg: 14px;
+  --r-xl: 20px; --r-2xl: 28px; --r-full: 999px;
+
+  --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur: 200ms;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Inter Display", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --tracking-tight: -0.02em;
+  --tracking-snug:  -0.01em;
+  --tracking-caps:   0.08em;
+}
+
+
+html, body {
+  background: var(--bg);
+  color: var(--fg1);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+  margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--fg1);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.1;
+  margin: 0;
+  text-wrap: balance;
+}
+
+p { margin: 0 0 1em 0; color: var(--fg2); text-wrap: pretty; }
+
+a { color: var(--accent); text-decoration: none; transition: color var(--dur) var(--ease-out); }
+a:hover { color: var(--accent-hover); }
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.num, .price {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+::selection { background: var(--js-terracotta-200); color: var(--js-ink-900); }
+
+*:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
