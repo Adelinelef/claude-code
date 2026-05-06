@@ -161,6 +161,7 @@ a.phone-link:hover { background: var(--js-ink-100); border-radius: var(--r-md); 
   .juris-grid { grid-template-columns: 1fr !important; }
   .steps-row { grid-template-columns: 1fr !important; }
   .step-arrow { transform: rotate(90deg); padding: 12px 0 !important; justify-self: center; }
+  .step-connector-label { transform: rotate(-90deg); }
   .why-grid { grid-template-columns: 1fr !important; }
   .reasons-grid { grid-template-columns: 1fr !important; }
   .faq-flash { grid-template-columns: 1fr !important; }
