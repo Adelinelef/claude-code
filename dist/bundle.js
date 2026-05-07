@@ -22135,7 +22135,7 @@
   var Reassurance = () => {
     const items = [
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IClock, { size: 18 }), label: "5 jours ouvrables", sub: "D\xE9lai standard" },
-      { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IScale, { size: 18 }), label: "Avocat inscrit au Barreau du Qu\xE9bec", sub: "Consultation initiale gratuite" },
+      { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IScale, { size: 18 }), label: "Un avocat vous conseille", sub: "Consultation initiale gratuite" },
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IDollar, { size: 18 }), label: "Prix fixes, sans surprise", sub: "Forfaits transparents" },
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IStarFill, { size: 18 }), label: "Avis 5 \xE9toiles", sub: "Google Reviews" }
     ];
@@ -22328,7 +22328,7 @@
             price: "590",
             badge: "Recommand\xE9",
             highlighted: true,
-            intro: "Tout ce qui est inclus dans le Forfait Essentiel, plus :",
+            intro: "Tout le Forfait Essentiel, plus :",
             features: sharedFeatures,
             extras: completExtras
           }
@@ -22409,7 +22409,7 @@
     const steps = [
       { n: "01", icon: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(ICalendar, { size: 22 }), title: "R\xE9servez votre cr\xE9neau d\xE8s maintenant", meta: "Quelques secondes", body: "Choisissez directement un moment qui vous convient pour votre consultation. Gratuit, rapide, sans engagement." },
       { n: "02", icon: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IHeadset, { size: 22 }), title: "Consultation gratuite avec un avocat", meta: "20 minutes", body: "Un avocat vous contacte pour \xE9changer sur votre projet, r\xE9pondre \xE0 vos questions et vous proposer la structure la mieux adapt\xE9e \xE0 votre situation." },
-      { n: "03", icon: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IBriefcase, { size: 22 }), title: "Vous validez, on prend en charge le dossier", meta: "On s'occupe de tout", body: "Une fois la consultation compl\xE9t\xE9e et votre accord confirm\xE9, nous g\xE9rons l'int\xE9gralit\xE9 du processus d'incorporation." },
+      { n: "03", icon: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IBriefcase, { size: 22 }), title: "On prend en charge le dossier", meta: "On s'occupe de tout", body: "Une fois la consultation compl\xE9t\xE9e et votre accord confirm\xE9, nous g\xE9rons l'int\xE9gralit\xE9 du processus d'incorporation." },
       { n: "04", icon: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(ICheckCircle, { size: 22 }), title: "Votre entreprise est cr\xE9\xE9e", meta: "5 jours ouvrables", body: "Vous recevez l'ensemble de vos documents corporatifs. Votre entreprise est officiellement constitu\xE9e, pr\xEAte \xE0 d\xE9marrer." }
     ];
     return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("section", { id: "processus", style: { padding: "96px 0", background: "var(--js-ink-50)", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }, children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "container", style: { padding: "0 24px" }, children: [
@@ -22429,12 +22429,12 @@
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { style: { fontSize: 13.5, color: "var(--fg2)", lineHeight: 1.5, margin: 0 }, children: s.body })
           ] }),
           i < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "step-arrow", style: { display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0 12px", color: "var(--js-ink-400)", position: "relative" }, children: i === 1 ? /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "step-connector-label", style: { display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "10px 8px", background: "#ffebb0", borderRadius: "var(--r-md)", width: 86 }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("span", { style: { fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--js-saffron-700)", textAlign: "center", textTransform: "uppercase", lineHeight: 1.2 }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("span", { style: { fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg1)", textAlign: "center", textTransform: "uppercase", lineHeight: 1.2 }, children: [
               "Vous validez",
               /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("br", {}),
               "et c'est parti"
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IHandshake, { size: 22, sw: 1.5, style: { color: "var(--js-saffron-700)" } })
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IHandshake, { size: 22, sw: 1.5, style: { color: "var(--fg1)" } })
           ] }) : /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", { viewBox: "0 0 24 24", width: 26, height: 26, fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round", children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { d: "M5 12h14" }),
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { d: "m13 6 6 6-6 6" })
@@ -22452,7 +22452,7 @@
       {
         criterion: "Accompagnement",
         diy: ["Vous naviguez seul dans les d\xE9marches sans savoir si vous faites les bons choix", "Informations incorrectes ou g\xE9n\xE9riques trouv\xE9es en ligne ou via l'IA"],
-        jurismart: ["Un avocat vous conseille selon votre situation", "Consultation incluse avant et apr\xE8s (forfait complet)", "\xC9quipe disponible tout au long du processus"]
+        jurismart: ["Un avocat vous conseille selon votre situation", "Consultation incluse avant et apr\xE8s (Forfait Complet)", "\xC9quipe disponible tout au long du processus"]
       },
       {
         criterion: "Structure",
@@ -22472,7 +22472,7 @@
     ];
     const reasons = [
       { icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IShieldCheck, { size: 24 }), title: "Prot\xE9gez votre patrimoine personnel", body: "Vos biens personnels sont distincts de ceux de votre entreprise. En cas de dettes ou de poursuites, votre responsabilit\xE9 est limit\xE9e.", color: "#1f2a3a", iconColor: "#fff" },
-      { icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IDollar, { size: 24 }), title: "Optimisez votre fiscalit\xE9", body: "Le taux d'imposition des soci\xE9t\xE9s est bien inf\xE9rieur \xE0 celui des particuliers. Reportez de l'imp\xF4t, fractionnez vos revenus, maximisez vos d\xE9ductions.", color: "var(--js-saffron-200)", iconColor: "var(--js-saffron-700)" },
+      { icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IDollar, { size: 24 }), title: "Optimisez votre fiscalit\xE9", body: "Selon votre situation, l'incorporation peut offrir des avantages fiscaux int\xE9ressants. Fractionnement de revenus, report d'imp\xF4t, d\xE9ductions : autant de possibilit\xE9s \xE0 explorer avec votre comptable.", color: "var(--js-saffron-200)", iconColor: "var(--js-saffron-700)" },
       { icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(ITrending, { size: 24 }), title: "Structurez votre croissance", body: "Accueillez des investisseurs, \xE9mettez des actions, facilitez une vente future. L'incorporation est la structure qui grandit avec vous.", color: "var(--js-terracotta-100)", iconColor: "var(--accent-press)" }
     ];
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("section", { id: "pourquoi", style: { padding: "96px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "container", style: { padding: "0 24px" }, children: [
