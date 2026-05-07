@@ -22088,7 +22088,7 @@
           }, children: "Dossier \xB7 INC-2026-0142" }),
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Badge, { tone: "success", dot: true, children: "Actif" })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("ul", { style: { position: "relative", zIndex: 1, margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 11 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("ul", { style: { position: "relative", zIndex: 1, margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 11, marginBottom: 8 }, children: [
           { label: "Statuts constitutifs r\xE9dig\xE9s", done: true },
           { label: "D\xE9p\xF4t au registre", done: true },
           { label: "Livre de minutes complet", done: true },
