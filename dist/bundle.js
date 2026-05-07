@@ -21908,7 +21908,6 @@
   var import_jsx_runtime2 = __toESM(require_jsx_runtime());
   var PHONE = "1 514 447-2546";
   var PHONE_HREF = "tel:+15144472546";
-  var EMAIL = "info@incorporation-jurismart.ca";
   var TopNav = () => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("header", { style: {
     position: "sticky",
     top: 0,
@@ -22612,7 +22611,7 @@
     /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "footer-top", style: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 32, flexWrap: "wrap", paddingBottom: 32, borderBottom: "1px solid rgba(255,255,255,0.12)" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { style: { maxWidth: 360 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", { src: "assets/logo-jurismart.png", alt: "Jurismart", style: { height: 30, filter: "brightness(0) invert(1)", marginBottom: 14 } }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { style: { margin: 0, fontSize: 13.5, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }, children: "Cabinet juridique priv\xE9 sp\xE9cialis\xE9 en incorporation d'entreprise au Qu\xE9bec et au Canada." })
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { style: { margin: 0, fontSize: 13.5, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }, children: "Cabinet juridique priv\xE9 sp\xE9cialis\xE9 en droit des affaires offrant des services d'incorporation d'entreprise au Qu\xE9bec et au Canada. Notre mission : simplifier le droit des affaires pour aider chaque entrepreneur \xE0 avancer en toute confiance." })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { style: { display: "flex", flexDirection: "column", gap: 8, fontSize: 14 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("a", { href: PHONE_HREF, style: { color: "#fff", display: "inline-flex", alignItems: "center", gap: 8 }, children: [
@@ -22620,21 +22619,20 @@
           " ",
           PHONE
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("a", { href: `mailto:${EMAIL}`, style: { color: "rgba(255,255,255,0.7)", display: "inline-flex", alignItems: "center", gap: 8 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("a", { href: "mailto:contact@jurismart.ca", style: { color: "rgba(255,255,255,0.7)", display: "inline-flex", alignItems: "center", gap: 8 }, children: [
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(IMail, { size: 14 }),
-          " ",
-          EMAIL
+          " contact@jurismart.ca"
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { style: { display: "inline-flex", alignItems: "center", gap: 8, color: "rgba(255,255,255,0.5)" }, children: "incorporation-jurismart.ca" })
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { style: { display: "inline-flex", alignItems: "center", gap: 8, color: "rgba(255,255,255,0.5)" }, children: "4388 rue Saint-Denis #257, Montr\xE9al, Qu\xE9bec H2J 2L1" })
       ] })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { padding: "24px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("p", { style: { margin: 0, fontSize: 12, lineHeight: 1.6, color: "rgba(255,255,255,0.55)", maxWidth: 920 }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("strong", { style: { color: "rgba(255,255,255,0.8)" }, children: "Avis important \u2014" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("strong", { style: { color: "rgba(255,255,255,0.8)" }, children: "Avis important :" }),
       " ",
       "Jurismart Inc. est un cabinet juridique priv\xE9 et ind\xE9pendant. Nos services ne sont pas affili\xE9s \xE0 Corporations Canada, au Registraire des entreprises du Qu\xE9bec ou \xE0 tout autre organisme gouvernemental."
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "footer-bottom", style: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap", paddingTop: 20, borderTop: "1px solid rgba(255,255,255,0.12)", fontSize: 13, color: "rgba(255,255,255,0.55)" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: "\xA9 2025 Jurismart Inc. \u2014 Tous droits r\xE9serv\xE9s" }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: "\xA9 2025 Jurismart Legal | GA L\xE9gal Inc. | Tous droits r\xE9serv\xE9s" }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { display: "flex", gap: 20 }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", { href: "#", style: { color: "rgba(255,255,255,0.7)" }, children: "Politique de confidentialit\xE9" }) })
     ] })
   ] }) });
