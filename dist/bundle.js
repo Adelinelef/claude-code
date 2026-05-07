@@ -22015,7 +22015,7 @@
           listStyle: "none"
         }, children: [
           "Incorporation cl\xE9 en main adapt\xE9e \xE0 votre projet",
-          "Conseils personnalis\xE9s \xE0 votre situation",
+          "Conseils adapt\xE9s \xE0 votre situation",
           "Qu\xE9bec et f\xE9d\xE9ral"
         ].map(
           (t) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("li", { style: { display: "flex", alignItems: "center", gap: 10, fontSize: 15, color: "var(--fg2)" }, children: [
@@ -22429,12 +22429,12 @@
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { style: { fontSize: 13.5, color: "var(--fg2)", lineHeight: 1.5, margin: 0 }, children: s.body })
           ] }),
           i < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "step-arrow", style: { display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0 12px", color: "var(--js-ink-400)", position: "relative" }, children: i === 1 ? /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "step-connector-label", style: { display: "flex", flexDirection: "column", alignItems: "center", gap: 6, padding: "10px 8px", background: "#ffebb0", borderRadius: "var(--r-md)", width: 86 }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("span", { style: { fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--fg1)", textAlign: "center", textTransform: "uppercase", lineHeight: 1.2 }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("span", { style: { fontSize: 10, fontWeight: 700, letterSpacing: "0.05em", color: "var(--js-saffron-700)", textAlign: "center", textTransform: "uppercase", lineHeight: 1.2 }, children: [
               "Vous validez",
               /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("br", {}),
               "et c'est parti"
             ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IHandshake, { size: 22, sw: 1.5, style: { color: "var(--fg1)" } })
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(IHandshake, { size: 22, sw: 1.5, style: { color: "var(--js-saffron-700)" } })
           ] }) : /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", { viewBox: "0 0 24 24", width: 26, height: 26, fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round", children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { d: "M5 12h14" }),
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { d: "m13 6 6 6-6 6" })
@@ -22527,16 +22527,16 @@
   var FAQ = () => {
     const [open, setOpen] = (0, import_react4.useState)(0);
     const flash = [
-      { q: "Pourquoi passer par un avocat ?", a: "Un avocat au Barreau du Qu\xE9bec encadre chaque dossier, sans exception. Il s'assure que votre structure est optimale pour votre situation sp\xE9cifique, fiscalement et l\xE9galement, d\xE8s le premier jour. Une structure mal configur\xE9e d\xE8s le d\xE9part peut entra\xEEner des co\xFBts importants \xE0 corriger plus tard.", icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IScale, { size: 22 }) },
+      { q: "Pourquoi passer par un avocat ?", a: "Un avocat au Barreau du Qu\xE9bec encadre chaque dossier, sans exception. Il s'assure que votre structure est optimale pour votre situation sp\xE9cifique, d\xE8s le premier jour. Une structure mal configur\xE9e au d\xE9part peut entra\xEEner des co\xFBts importants \xE0 corriger plus tard.", icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IScale, { size: 22 }) },
       { q: "Combien de temps \xE7a prend ?", a: "Une fois votre dossier confirm\xE9 et les informations re\xE7ues, nous livrons vos documents en 5 jours ouvrables. Les d\xE9lais peuvent varier l\xE9g\xE8rement selon la juridiction choisie et la complexit\xE9 de votre dossier. Vous \xEAtes inform\xE9 \xE0 chaque \xE9tape du processus.", icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IClock, { size: 22 }) },
       { q: "La consultation est-elle gratuite et sans engagement ?", a: "Oui, enti\xE8rement. Vous nous parlez de votre projet, un avocat vous conseille honn\xEAtement sur votre situation, sans frais et sans engagement. C'est seulement si vous souhaitez aller de l'avant que nous d\xE9marrons le mandat ensemble.", icon: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(IShieldCheck, { size: 22 }) }
     ];
     const accordion = [
-      { q: "Quelle est la diff\xE9rence entre une incorporation provinciale et f\xE9d\xE9rale ?", a: "Dans la plupart des cas, une incorporation provinciale au Qu\xE9bec (REQ) est tout \xE0 fait adapt\xE9e. L'incorporation f\xE9d\xE9rale (Corporations Canada) est recommand\xE9e si vous pr\xE9voyez op\xE9rer dans plusieurs provinces ou prot\xE9ger votre nom \xE0 l'\xE9chelle du Canada. Lors de votre consultation gratuite, un avocat \xE9value votre situation et vous recommande la juridiction la plus adapt\xE9e \xE0 votre projet." },
-      { q: "Que se passe-t-il apr\xE8s l'incorporation ?", a: "Vous recevez l'ensemble de vos documents corporatifs. Si vous avez choisi le Forfait Complet, une consultation post-incorporation est incluse pour r\xE9pondre \xE0 vos questions sur les prochaines \xE9tapes \u2014 ouverture de compte bancaire, obligations fiscales, etc. Nos autres services restent disponibles selon l'\xE9volution de vos besoins." },
+      { q: "M'incorporer au provincial ou au f\xE9d\xE9ral ?", a: "Dans la plupart des cas, une incorporation provinciale au Qu\xE9bec (REQ) est tout \xE0 fait adapt\xE9e. L'incorporation f\xE9d\xE9rale (Corporations Canada) est recommand\xE9e si vous ouvrez des succursales dans plusieurs provinces par exemple. Lors de votre consultation gratuite, un avocat \xE9value votre situation et vous recommande la juridiction la plus adapt\xE9e \xE0 votre projet." },
+      { q: "Que se passe-t-il apr\xE8s l'incorporation ?", a: "Vous recevez l'ensemble de vos documents corporatifs. Si vous avez choisi le Forfait Complet, une consultation post-incorporation est incluse pour r\xE9pondre \xE0 vos questions sur les prochaines \xE9tapes. Nos autres services restent disponibles selon l'\xE9volution de vos besoins." },
       { q: "J'ai besoin d'autres services : convention entre actionnaires, r\xE9vision de contrat, vente d'actions\u2026", a: "Nous offrons l'ensemble des services d'un cabinet juridique traditionnel. L'incorporation est souvent la premi\xE8re \xE9tape, mais nous restons disponibles pour vous accompagner \xE0 chaque \xE9tape de la vie de votre entreprise. Contactez-nous pour discuter de vos besoins sp\xE9cifiques." },
       { q: "Les frais gouvernementaux sont-ils inclus dans vos forfaits ?", a: "Non, les frais gouvernementaux sont en sus de nos honoraires. Ils s'\xE9l\xE8vent \xE0 397 $ pour une incorporation provinciale (REQ) et 597 $ pour une incorporation f\xE9d\xE9rale (REQ + Corporations Canada)." },
-      { q: "Puis-je incorporer si j'ai des associ\xE9s ?", a: "Oui, nos deux forfaits incluent l'inscription de jusqu'\xE0 3 administrateurs et/ou actionnaires. Si votre situation implique plusieurs actionnaires, nous vous recommandons d'envisager une convention entre actionnaires pour encadrer vos droits et obligations respectifs d\xE8s le d\xE9part." }
+      { q: "Comment faire si j'ai des associ\xE9s ?", a: "Nos deux forfaits incluent l'inscription de jusqu'\xE0 3 administrateurs et/ou actionnaires (avec option d'en ajouter davantage). Si votre situation implique plusieurs actionnaires, nous vous recommandons d'envisager une convention entre actionnaires pour encadrer vos droits et obligations respectifs d\xE8s le d\xE9part." }
     ];
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("section", { id: "faq", style: { padding: "96px 0", background: "var(--js-ink-50)", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "container", style: { padding: "0 24px" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(SectionHeader, { eyebrow: "FAQ", title: "Vos questions, nos r\xE9ponses" }),
