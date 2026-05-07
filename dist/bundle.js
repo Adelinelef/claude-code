@@ -22015,7 +22015,7 @@
           listStyle: "none"
         }, children: [
           "Incorporation cl\xE9 en main adapt\xE9e \xE0 votre projet",
-          "Avocat au Barreau du Qu\xE9bec",
+          "Conseils personnalis\xE9s \xE0 votre situation",
           "Qu\xE9bec et f\xE9d\xE9ral"
         ].map(
           (t) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("li", { style: { display: "flex", alignItems: "center", gap: 10, fontSize: 15, color: "var(--fg2)" }, children: [
@@ -22043,7 +22043,7 @@
           gap: 8
         }, children: [
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IClock, { size: 14 }),
-          "Gratuit et sans engagement - un avocat vous r\xE9pond sous 24 h"
+          "Gratuit et sans engagement"
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "hero-visual", style: { position: "relative" }, children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { style: {
@@ -22135,7 +22135,7 @@
   var Reassurance = () => {
     const items = [
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IClock, { size: 18 }), label: "5 jours ouvrables", sub: "D\xE9lai standard" },
-      { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IScale, { size: 18 }), label: "Avocat encadre votre dossier", sub: "Inscrit au Barreau du Qu\xE9bec" },
+      { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IScale, { size: 18 }), label: "Avocat inscrit au Barreau du Qu\xE9bec", sub: "Consultation initiale gratuite" },
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IDollar, { size: 18 }), label: "Prix fixes, sans surprise", sub: "Forfaits transparents" },
       { icon: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(IStarFill, { size: 18 }), label: "Avis 5 \xE9toiles", sub: "Google Reviews" }
     ];
