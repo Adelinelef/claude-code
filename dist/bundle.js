@@ -22574,7 +22574,7 @@
         });
       }
     }, []);
-    return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { background: "#fff", borderRadius: "var(--r-xl)", overflow: "hidden", boxShadow: "var(--shadow-lg)", minHeight: 600 }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { id: "cal-inline", style: { width: "100%", height: 600 } }) });
+    return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { background: "#fff", borderRadius: "var(--r-xl)", boxShadow: "var(--shadow-lg)", minHeight: 600 }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { id: "cal-inline", style: { width: "100%" } }) });
   };
   var ContactSection = () => /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("section", { id: "contact", style: { padding: "96px 0", background: "linear-gradient(180deg, var(--js-blue-100) 0%, var(--bg) 100%)", position: "relative", overflow: "hidden" }, children: [
     /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { "aria-hidden": true, style: { position: "absolute", top: -120, right: -120, width: 360, height: 360, borderRadius: "50%", background: "var(--js-saffron-200)", opacity: 0.4, filter: "blur(8px)" } }),

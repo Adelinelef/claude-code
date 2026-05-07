@@ -193,9 +193,6 @@ a.phone-link:hover { background: var(--js-ink-100); border-radius: var(--r-md); 
   /* Comparison table */
   .compare-table { min-width: 0 !important; }
 
-  /* Cal.com embed */
-  #cal-inline { height: 520px !important; }
-
   /* Footer */
   .footer-top { flex-direction: column !important; gap: 20px !important; }
   .footer-bottom { flex-direction: column !important; gap: 8px !important; text-align: center; }
