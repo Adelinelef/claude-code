@@ -22286,8 +22286,8 @@
   var Pricing = () => {
     const sharedFeatures = [
       "Consultation initiale gratuite avec un avocat",
-      "R\xE9daction des statuts constitutifs",
-      "Structure actionnariale avec actions de cat\xE9gories A et B \xE9mises",
+      "R\xE9daction des statuts constitutifs, r\xE8glements internes et r\xE9solutions",
+      "Structure actionnariale compl\xE8te avec \xE9mission d'actions de cat\xE9gorie A et B",
       "D\xE9p\xF4t au registre (REQ ou Corporations Canada)",
       "Num\xE9ro d'entreprise du Qu\xE9bec (NEQ)",
       "Livre de minutes complet",
@@ -22372,6 +22372,7 @@
     const options = [
       { label: "Inscription TPS / TVQ", price: "75 $" },
       { label: "Inscription d\xE9ductions \xE0 la source", price: "75 $" },
+      { label: "Administrateur ou actionnaire suppl\xE9mentaire", price: "50 $", note: "Au-del\xE0 de 3" },
       { label: "\xC9mission d'actions suppl\xE9mentaires", price: "150 $", note: "Cat\xE9gories discr\xE9tionnaires, dividendes, etc." },
       { label: "Convention entre actionnaires (mod\xE8le)", price: "400 $", note: "Pour actionnaires multiples" },
       { label: "Convention entre actionnaires sur mesure", price: "800 $", note: "Pour actionnaires multiples" },
