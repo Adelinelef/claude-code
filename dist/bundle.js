@@ -22633,7 +22633,7 @@
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "footer-bottom", style: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap", paddingTop: 20, borderTop: "1px solid rgba(255,255,255,0.12)", fontSize: 13, color: "rgba(255,255,255,0.55)" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { children: "\xA9 2025 Jurismart Legal | GA L\xE9gal Inc. | Tous droits r\xE9serv\xE9s" }),
-      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { display: "flex", gap: 20 }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", { href: "#", style: { color: "rgba(255,255,255,0.7)" }, children: "Politique de confidentialit\xE9" }) })
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { style: { display: "flex", gap: 20 }, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", { href: "politique-confidentialite.html", target: "_blank", rel: "noopener noreferrer", style: { color: "rgba(255,255,255,0.7)" }, children: "Politique de confidentialit\xE9" }) })
     ] })
   ] }) });
 
