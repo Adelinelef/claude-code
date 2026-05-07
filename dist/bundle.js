@@ -22175,8 +22175,8 @@
     ...style
   }, children: [
     eyebrow && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "eyebrow", style: { marginBottom: 12 }, children: eyebrow }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { style: { fontSize: 40, fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.08, marginBottom: subtitle ? 14 : 0 }, children: title }),
-    subtitle && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { style: { fontSize: 17, color: "var(--fg2)", lineHeight: 1.55, margin: 0 }, children: subtitle })
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { className: "section-h2", style: { fontSize: 40, fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.08, marginBottom: subtitle ? 14 : 0 }, children: title }),
+    subtitle && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { className: "section-sub", style: { fontSize: 17, color: "var(--fg2)", lineHeight: 1.55, margin: 0 }, children: subtitle })
   ] });
 
   // src/sections-mid.jsx
@@ -22477,7 +22477,7 @@
     ];
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("section", { id: "pourquoi", style: { padding: "96px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "container", style: { padding: "0 24px" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(SectionHeader, { eyebrow: "Pourquoi Jurismart", title: "Pourquoi choisir Jurismart pour votre incorporation ?" }),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { style: { maxWidth: 1100, margin: "0 auto", overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { style: { minWidth: 520, borderRadius: "var(--r-xl)", overflow: "hidden", border: "1px solid var(--line)", boxShadow: "var(--shadow-sm)", display: "grid", gridTemplateColumns: "1fr 1fr", background: "#fff6d6" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { style: { maxWidth: 1100, margin: "0 auto", overflowX: "auto" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "compare-table", style: { minWidth: 520, borderRadius: "var(--r-xl)", overflow: "hidden", border: "1px solid var(--line)", boxShadow: "var(--shadow-sm)", display: "grid", gridTemplateColumns: "1fr 1fr", background: "#fff6d6" }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { style: { padding: "18px 24px", background: "var(--js-ink-200)", borderRight: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { style: { fontSize: 17, fontWeight: 700, color: "var(--fg1)", letterSpacing: "-0.01em" }, children: "Faire soi-m\xEAme" }) }),
         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { style: { padding: "18px 24px", background: "#ffebb0", borderBottom: "1px solid var(--js-saffron-200)" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { style: { fontSize: 17, fontWeight: 700, color: "var(--accent)", letterSpacing: "-0.01em" }, children: "Avec Jurismart" }) }),
         rows.map(
@@ -22581,7 +22581,7 @@
     /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "container contact-grid", style: { padding: "0 24px", position: "relative", display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 56, alignItems: "start", maxWidth: 1280, margin: "0 auto" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "eyebrow", style: { marginBottom: 14 }, children: "D\xE9marrons" }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("h2", { style: { fontSize: 42, fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.05, marginBottom: 18 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("h2", { className: "contact-h2", style: { fontSize: 42, fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.05, marginBottom: 18 }, children: [
           "R\xE9servez votre consultation, ",
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { style: { color: "var(--accent)" }, children: "gratuite et sans engagement." })
         ] }),

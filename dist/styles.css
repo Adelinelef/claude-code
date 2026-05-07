@@ -173,3 +173,30 @@ a.phone-link:hover { background: var(--js-ink-100); border-radius: var(--r-md); 
 @media (max-width: 560px) {
   .reassurance-grid { grid-template-columns: 1fr !important; }
 }
+
+@media (max-width: 480px) {
+  /* Section spacing */
+  section { padding-top: 64px !important; padding-bottom: 64px !important; }
+  .container { padding-left: 16px !important; padding-right: 16px !important; }
+
+  /* Hero */
+  .hero-h1 { font-size: 32px !important; }
+  .hero-grid { gap: 28px !important; padding-top: 40px !important; padding-bottom: 48px !important; }
+
+  /* Section headers */
+  .section-h2 { font-size: 26px !important; line-height: 1.1 !important; }
+  .section-sub { font-size: 15px !important; }
+
+  /* Contact */
+  .contact-h2 { font-size: 24px !important; line-height: 1.1 !important; }
+
+  /* Comparison table */
+  .compare-table { min-width: 0 !important; }
+
+  /* Cal.com embed */
+  #cal-inline { height: 520px !important; }
+
+  /* Footer */
+  .footer-top { flex-direction: column !important; gap: 20px !important; }
+  .footer-bottom { flex-direction: column !important; gap: 8px !important; text-align: center; }
+}
